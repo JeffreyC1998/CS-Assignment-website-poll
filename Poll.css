@@ -1,0 +1,258 @@
+body {
+    font-family:Verdana,sans-serif;
+    font-size:100%;
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color:rgb(143, 203, 238);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border:1px solid rgb(0, 0, 0);
+}
+
+form{
+    background-color:rgb(143, 203, 238);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.err_msg {
+    color:red;
+}
+
+.footer2 {
+    background-color:rgb(243, 243, 243);
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+    padding: 0 51px;
+    border: 1px solid black;
+    width: 45%;
+}
+
+#localstyle_para{
+    text-align: left;
+    color: #afacaa;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(0, 0, 0);
+}
+h1 {
+    position: relative;
+    margin-left: 150px;
+  }
+
+h3 {
+    position: relative;
+    margin-left: 150px;
+}
+
+.welcome_img {
+    float: left;
+
+    width: 100px; 
+    height: 100px;
+}
+.image{
+    float: left;
+    width: 30px;
+    height: 30px;
+
+}
+.inputmain {
+    width: 15%;
+    padding: 15px;
+    display: inline-block;
+    border-style: solid;
+    border-width: thin;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.inputlogin{
+    margin-left: 390px;
+}
+
+.labelmain {
+    position: absolute;
+    margin-top: 10px;
+    padding: 15px;
+  }
+
+h4.messbelog{
+    color: rgb(36, 70, 75);
+}
+
+.cen{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    color: red;
+}
+div.mainpoststyle{
+    font-style: oblique;
+}
+.footbackground{
+    position: absolute;
+    background-color:rgb(143, 203, 238);
+    height: 50%;
+    width: 100%;
+}
+
+.caption {
+    display: block;
+    text-align: center;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.logininfo {
+    width: 50px;
+    height: 50px;
+    float: right;
+
+}
+
+
+.postedpoll{
+    position: absolute;
+    color: black;
+    border: 1px solid black;
+    background-color:rgb(143, 203, 238);
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    OVERFLOW-Y: auto; 
+}
+
+
+#maintable{
+    width: 21%;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 10px;
+}
+
+#createtable{
+    width: 57%;
+    margin: auto;
+
+}
+td, th {
+    border: 1px solid rgb(143, 203, 238);
+    text-align: center;
+    padding: 8px;
+  }
+
+#Create{
+    position: absolute;
+    color: black;
+    border: 1px solid black;
+    background-color:rgb(143, 203, 238);
+    height: 72%;
+    width: 100%;
+    text-align: center;
+}
+
+section.vote{
+    position: absolute;
+    color: black;
+    border: 1px solid black;
+    background-color:rgb(143, 203, 238);
+    height: 80%;
+}
+#pollcreation{
+    border-style: 1px solid black;
+    margin-left: 0;
+    width: 30%;
+    padding: 9px;
+}
+
+#pollsubmit{
+    border-style: 1px solid black;;
+    width: 6%;
+}
+
+p.answers{
+    border-style: 1px solid black;
+    width: 5%;
+}
+
+.posterinfo{
+    display: inline-block;
+    margin-right: 36%;
+    margin-top: 15px;  
+    text-align: center;  
+}
+.posterimg
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+p.poster1{
+    margin-right: 36%;
+}
+
+.posttopic{
+    float: left;
+    text-align: center;
+    width: 100%;
+
+}
+
+#Vote{
+    position: absolute;
+    background-color:rgb(243, 243, 243);
+    color: black;
+    text-align: center;
+    padding: 0 51px;
+    border: 1px solid black;
+    width: 420px;
+    height: 260px;
+    top: 42%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    visibility: visible; 
+}
+
+#afterVote{
+    visibility: hidden;
+}
+
+.result{
+    position: absolute;
+    border: 1px solid rgb(7, 7, 7);
+    background-color:rgb(143, 203, 238);
+    display: flex;
+    width: 50%;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%, -50%);
+}
+
+.resultMaP{
+    background-color:rgb(143, 203, 238);
+    display: flex;
+    width: 100%;
+}
+
+.back{
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+}
