@@ -1,5 +1,9 @@
 # cs-assignment-website-poll
 
+## Instruction
+For testing accout, please <br/>
+sign up an account on your own.<br/>
+
 ## url:
 http://www2.cs.uregina.ca/~zheng32j/poll/MainPage.php <br/>
 
@@ -25,9 +29,3 @@ manage_ajax.js: This is a Javascript file to process the response and complete t
 main_ajax.php: This is a php file to generate the response and retrieve data from database for poll manage page.<br/>
 vote_ajax.js: This is a JavaScript file to process the response and complete the function that set the result distribution visible and the vote option hidden after user click any vote option.<br/>
 vote_ajax.php: This is a php to generate the response and action that when user click vote in PollVote.php and PollVote.php call this file to save the answer and vote date in database.<br/>
-
-## Instruction
-For testing accout, please use <br/>
-username: Admin <br/>
-password: 1234567a <br/>
-or sign up an account on your own.<br/>
