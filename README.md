@@ -1,5 +1,10 @@
 # cs-assignment-website-poll
 
+## Description
+This is a micro polling website. Html and css are used to built an interface mock-up of the site. <br/>
+Javascript is used to implemente the client-side programming. PHP is used to implement the server-side programming. <br/>
+AJAX-based updating is implemented to update the website periodically <br/>
+
 ## Instruction
 For testing accout, please <br/>
 sign up an account on your own.<br/>
