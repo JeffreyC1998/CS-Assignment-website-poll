@@ -1,7 +1,9 @@
 # cs-assignment-website-poll
 
-url: http://www2.cs.uregina.ca/~zheng32j/poll/MainPage.php <br/>
+##url:
+http://www2.cs.uregina.ca/~zheng32j/poll/MainPage.php <br/>
 
+## Files Description
 MainPage.php: This is the main page of the poll website. User can login, vote the five recent polls or go to sign up page here. The log in information will be searched in the database to see if thereis a match.<br/>
 SignUp.php: This is a sign up page which user make their account here, it requires the user make username, image, email birthday and password. All these information will be saved in database.<br/>
 PollManagement.php: This is a management page for all the polls after a user login or sign up. All the polls in the database is loaded in this page. Users can go to create a new poll, view the poll result or go to vote here.<br/>
