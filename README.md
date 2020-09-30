@@ -23,7 +23,8 @@ main_ajax.php: This is a php file to generate the response and retrieve data fro
 vote_ajax.js: This is a JavaScript file to process the response and complete the function that set the result distribution visible and the vote option hidden after user click any vote option.<br/>
 vote_ajax.php: This is a php to generate the response and action that when user click vote in PollVote.php and PollVote.php call this file to save the answer and vote date in database.<br/>
 
+## Instruction
 For testing accout, please use <br/>
 username: Admin <br/>
-password: 1234567a<br/>
+password: 1234567a <br/>
 or sign up an account on your own.<br/>
